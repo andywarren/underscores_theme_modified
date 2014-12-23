@@ -22,8 +22,20 @@
 
 	<header id="header" role="banner">
 		
-		<nav id="theMainMenu" role="navigation">
-			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		<nav id="theMainMenu" role="navigation">				
+			<?php wp_nav_menu(array(
+				'container' => false,          
+				'container_class' => 'menu',
+				'menu' => __( 'The Main Menu' ),
+				'menu_class' => 'nav',
+				'theme_location' => 'primary',
+				'before' => '',
+				'after' => '',
+				'link_before' => '',
+				'link_after' => '',
+				'depth' => 0,                          
+				'fallback_cb' => ''
+			)); ?>
 		</nav>
 		
 	</header><!-- #header -->
