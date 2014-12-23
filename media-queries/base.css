@@ -9,3 +9,5 @@
 .alignright {display: inline; float: right; margin-left: 1.5em;}
 
 .aligncenter {clear: both;display: block; margin: 0 auto;}
+
+.responsiveImage {max-width: 100%; height: auto;}
