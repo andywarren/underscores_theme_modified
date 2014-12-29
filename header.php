@@ -14,6 +14,11 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+	<!-- Get stylesheet directory for use in JS -->
+	<script type="text/javascript">
+		var templateDir = "<?php echo get_stylesheet_directory_uri(); ?>";
+	</script>
+
 <?php wp_head(); ?>
 </head>
 
