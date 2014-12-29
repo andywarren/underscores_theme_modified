@@ -56,10 +56,6 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: inherit;
-	font-size: 100%;
-	font-style: inherit;
-	font-weight: inherit;
 	margin: 0;
 	outline: 0;
 	padding: 0;
@@ -67,6 +63,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 html {
+	font-size: 100%;
 	overflow-y: scroll; /* Keeps page centered in all browsers regardless of content height */
 	-webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
 	-ms-text-size-adjust:     100%; /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
